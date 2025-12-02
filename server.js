@@ -61,7 +61,7 @@ testConnection();
 app.get('/health', (req, res) => {
     res.json({ 
         status: 'OK', 
-        message: 'Task API is running, and I added this for a test!',
+        message: 'Task API is running, and its time to complete tasks!',
         environment: process.env.NODE_ENV,
         timestamp: new Date().toISOString()
     });
